@@ -1,4 +1,4 @@
-# munual.org
+# munual.org [![Netlify Status](https://api.netlify.com/api/v1/badges/7a11fdaa-60b6-4328-9c4a-8d1d0ca7a559/deploy-status)](https://app.netlify.com/sites/naughty-edison-06eb86/deploys)
 
 This is the static sources of munual.org, the manual for Model United Nations (MUN) conferences.
 
