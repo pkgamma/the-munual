@@ -1,0 +1,5 @@
+Sitemap: http://OFFLINEZIP.wpshositemap.xml
+Sitemap: http://OFFLINEZIP.wpshonews-sitemap.xml
+User-agent: *
+Disallow: /munual/wp-admin/
+Allow: /munual/wp-admin/admin-ajax.php
