@@ -2,12 +2,6 @@
 
 This is the static sources of munual.org, the manual for Model United Nations (MUN) conferences.
 
-## TODOs
-
-Since it seems like there is no way I can get the static sites to work without problems (as described below), so now I think it's best to migrate the site to Medium.
-
-**TODO: Migrate to Medium, include Wayback Machine link for old site experience, deprecate the repo.**
-
 ## Background
 
 This website was originally created back in 2015 and was built with WordPress. The site has not been activity maintained, so it is now being moved from being hosted on the NameCheap server to being hosted on [Netlify](https://www.netlify.com/).
@@ -54,3 +48,7 @@ The website is now entirely static, and to make changes to the content of the si
 - When the static sites are generated with WP2Static, full width pages become half width with no widget on the side.
   
 - When the static sites are generated with HTTrack, sites seem to be working only on desktop but not on mobile, potentially because the smaller size images are not tracked.
+
+## Current Solution to Problems
+
+Currently, the WP2Static version of the static sites are still being hosted - although the styling looks a little off, it at least works great on mobile, and most people are on mobile now anyways. If, in the future, solutions can be found to solve this problem, then we can then implement new changes.
