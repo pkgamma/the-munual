@@ -16,10 +16,10 @@ The website is now entirely static, and to make changes to the content of the si
 
 ## Host munual.org on localhost
 
-1. Get `localhost` running on the machine. On Macs, use [MAMP](https://www.mamp.info/en/). Set the Apache port to `80` so that `http://localhost/` will take us directory to the root localhost directory. Also set the "document root" to your preferred root localhost directory, e.g. `~/code/localhost`. Now go to that directory.
+1. Get `localhost` running on the machine. On Macs, use [MAMP](https://www.mamp.info/en/). Set the Apache port to `80` so that `http://localhost/` will take us directory to the root localhost directory. Also set the "document root" to your preferred root localhost directory, e.g. `~/code/sites`. Now go to that directory.
    
    ```
-   cd ~/code/localhost
+   cd ~/code/sites
    ```
 
 2. `git clone` this [git repo](https://github.com/pkgamma/munual.org) under the root localhost directory and rename the folder from `munual.org` to `munual.`
