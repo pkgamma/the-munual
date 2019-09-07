@@ -2,6 +2,12 @@
 
 This is the static sources of munual.org, the manual for Model United Nations (MUN) conferences.
 
+## TODOs
+
+Since it seems like there is no way I can get the static sites to work without problems (as described below), so now I think it's best to migrate the site to Medium.
+
+**TODO: Migrate to Medium, include Wayback Machine link for old site experience, deprecate the repo.**
+
 ## Background
 
 This website was originally created back in 2015 and was built with WordPress. The site has not been activity maintained, so it is now being moved from being hosted on the NameCheap server to being hosted on [Netlify](https://www.netlify.com/).
@@ -35,10 +41,16 @@ The website is now entirely static, and to make changes to the content of the si
    
 2. Make changes as you wish, by visiting the WordPress [admin page](http://localhost/munual/wp-admin).
    
-3. Generate the new static site files by visiting [WP2Static](http://localhost/munual/wp-admin/admin.php?page=wp2static) on the WordPress dashboard. Choose the zip option and make sure links are made relative.
+3. Generate the new static site files by visiting [WP2Static](http://localhost/munual/wp-admin/admin.php?page=wp2static) on the WordPress dashboard. Choose the zip option and make sure links are made relative. (Alternatively, use [HTTrack](https://www.httrack.com/) to clone the entire `http://localhost/munual` directory).
    
 4. Unzip the file and replace everything in `_site_static`.
 
 5. Visit the [local MAMP WebStart page](http://localhost/MAMP), go into Tools > phpMyAdmin and export a copy of `db_munual`. Rename the file to `db_munual_MMDDYYYY.sql` (Month/Day/Year format) and put the file under the main `munual` directory.
    
 6. Push the local updates to the [git repo](https://github.com/pkgamma/munual.org) and Netlify will updates it automatically.
+
+## Known Problems
+
+- When the static sites are generated with WP2Static, full width pages become half width with no widget on the side.
+  
+- When the static sites are generated with HTTrack, sites seem to be working only on desktop but not on mobile, potentially because the smaller size images are not tracked.
